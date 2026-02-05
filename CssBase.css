@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+ body {
+      margin: 0;
+      font-family: 'Kanit', sans-serif;
+      background-color: #fefefe;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff6f61, #ffcc80);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .banner {
+      background: url('https://via.placeholder.com/1200x300?text=Taste+the+Festive') no-repeat center;
+      background-size: cover;
+      height: 300px;
+      position: relative;
+    }
+
+    .banner-text {
+      position: absolute;
+      bottom: 20px;
+      left: 30px;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 1.2em;
+      color: #d84315;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #fff3e0;
+      padding: 10px;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ff7043;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 20px;
+      background-color: #ffffff;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ffccbc;
+    }
+
+    .ButtonHome{
+      width: 110px;
+      margin: auto;
+    }
+
+    .section {
+      padding: 20px;
+
+    }
+
+    .section h2 {
+      color: #ff7043;
+      margin-bottom: 10px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 10px auto;
+      max-width: 900px;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #e2d6b0;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card .info {
+      padding: 10px;
+    }
+
+    .card .info h3 {
+      margin: 0;
+      color: #d84315;
+    }
+
+    .card .info p {
+      margin: 5px 0 0;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ffe0b2;
+      color: #d84315;
+      font-size: 0.9em;
+    }
+
+    /* นำเข้าฟอนต์ Kanit จาก Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+
+
+/* สีเฉพาะของแบรนด์ (Custom Colors) */
+.wongnai-blue {
+    color: #1663cc;
+}
+
+.bg-wongnai-blue {
+    background-color: #1663cc;
+}
+
+.wongnai-orange {
+    color: #ef4c29;
+}
+
+.bg-wongnai-orange {
+    background-color: #ef4c29;
+}/* นำเข้าฟอนต์ Kanit จาก Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+
+/* ตั้งค่าพื้นฐาน */
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #f6f7f8;
+}
+
+/* สีเฉพาะของแบรนด์ (Custom Colors) */
+.wongnai-blue {
+    color: #1663cc;
+}
+
+.bg-wongnai-blue {
+    background-color: #1663cc;
+}
+
+.wongnai-orange {
+    color: #ef4c29;
+}
+
+.bg-wongnai-orange {
+    background-color: #ef4c29;
+}
